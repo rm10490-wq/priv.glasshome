@@ -105,7 +105,7 @@
   <header>
     <span class="eyebrow">GlassHome Launcher · Android</span>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective 27 September 2026 · Applies to the app <code>com.glasshome.launcher</code></p>
+    <p class="meta">Effective 15 November 2026 · Applies to the app <code>com.glasshome.launcher</code></p>
   </header>
 
   <section class="glance" aria-labelledby="glance">
@@ -128,11 +128,14 @@
     <li><strong>App launch counts:</strong> how often you open each app from GlassHome, used only to suggest apps in search. Counts fade automatically over time.</li>
     <li><strong>Wallpapers you choose:</strong> including a photo you pick through Android's own photo picker. GlassHome gets only the single image you select, not access to your gallery.</li>
     <li><strong>Depth effect analysis:</strong> the Depth feature analyses your wallpaper on the device to find its foreground. The image is never uploaded.</li>
+    <li><strong>GlassHour usage:</strong> if you use GlassHour, how long you spend in apps you open from GlassHome today, and your daily goal. It counts only apps opened from GlassHome, needs no usage-access permission, keeps only today (older data is deleted), can be turned off and cleared in Settings, and is excluded from Android backup.</li>
+    <li><strong>Notification badge counts:</strong> if you grant notification access for icon badges, GlassHome uses only the number of notifications per app to draw the badge. It does not read their content.</li>
+    <li><strong>Share my setup:</strong> a picture of your home screen is made on your phone and handed to Android's share sheet, so it goes only to the app you choose. Widgets marked private are hidden unless you choose to show them.</li>
     <li><strong>Weather city:</strong> the city you choose for the weather widget.</li>
     <li><strong>Premium status:</strong> a cached copy of whether you have an active subscription, so Premium keeps working when you are briefly offline.</li>
   </ul>
   <h3>Android backup</h3>
-  <p>If Android backup is turned on for your Google Account, Android may include GlassHome's settings in that backup so they return when you set up a new phone. This backup is stored by Google under your account, not by us. Wallpapers, photos and your Premium status are excluded from it.</p>
+  <p>If Android backup is turned on for your Google Account, Android may include GlassHome's settings in that backup so they return when you set up a new phone. This backup is stored by Google under your account, not by us. Wallpapers, photos, GlassHour usage and your Premium status are excluded from it.</p>
 
   <h2 id="permissions">2. Permissions and why they are used</h2>
   <p>GlassHome asks only for what a feature needs. Most sensitive permissions are requested only when you turn the related feature on, and you can revoke any of them in Android Settings.</p>
@@ -142,7 +145,7 @@
       <tbody>
         <tr><td>Internet</td><td>Ads for free users, Google Play subscriptions, and the optional weather, news and online wallpaper features described below.</td></tr>
         <tr><td>Calendar (read)</td><td>Requested only when you add the Calendar widget. It reads the title, time and colour of upcoming events to display them. Events are not stored and never leave your device.</td></tr>
-        <tr><td>Notification access</td><td>Optional, for the Music widget only. Android requires this access for an app to show and control what is currently playing. GlassHome does not read, store or send the content of your notifications.</td></tr>
+        <tr><td>Notification access</td><td>Optional, for the Music widget and for notification badges on app icons. Android requires this access for an app to show and control what is currently playing and to count notifications. GlassHome uses only the number of notifications per app for badges, and does not read, store or send the content of your notifications.</td></tr>
         <tr><td>Device admin (screen lock)</td><td>Optional. It lets the double-tap gesture or control centre turn the screen off. The only policy requested is “lock the screen”. GlassHome cannot wipe your device, see or change your password, or monitor you.</td></tr>
         <tr><td>Modify system settings</td><td>Optional, for the control centre's brightness and rotation controls.</td></tr>
         <tr><td>Do Not Disturb access</td><td>Optional, for the control centre's Do Not Disturb and silent-mode controls. It does not give access to notification content.</td></tr>
@@ -164,6 +167,9 @@
 
   <h3>Google Play Billing (subscriptions)</h3>
   <p>GlassHome Premium is sold through Google Play. Google processes your payment, and we never receive your card or bank details. The app receives only the purchase status and a purchase token from Google Play, which it uses to unlock Premium. See the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>. You can manage or cancel your subscription at any time in the Google Play Store under <em>Payments &amp; subscriptions</em>.</p>
+
+  <h3>Google Play (checking for updates)</h3>
+  <p>If you tap “Check for updates” in Settings › About GlassHome, the app asks Google Play whether a newer version is available and, if you choose, starts the update through Google Play. Nothing is sent to us, and GlassHome never checks for updates in the background. The “Rate GlassHome” button and the one-time rating request simply open GlassHome's page on Google Play, where Google's own policy applies.</p>
 
   <h3>Open-Meteo (weather widget, optional)</h3>
   <p>When you use the weather widget, GlassHome sends the city name you search for and the coordinates of the city you picked to <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo</a> to fetch the forecast. It does not use your phone's GPS, and the request carries no identifier for you or your device.</p>
@@ -214,7 +220,7 @@
     </div>
   </div>
 
-  <footer>GlassHome Launcher · Privacy Policy · Effective 27 September 2026</footer>
+  <footer>GlassHome Launcher · Privacy Policy · Effective 15 November 2026</footer>
 </main>
 </body>
 </html>
