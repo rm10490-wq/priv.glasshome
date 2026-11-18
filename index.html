@@ -120,12 +120,12 @@
   <header class="hero">
     <span class="chip">GlassHome Launcher · Android</span>
     <h1>Privacy <em>Policy</em></h1>
-    <p class="meta">Effective 15 November 2026 · Applies to the app <code>com.glasshome.launcher</code></p>
+    <p class="meta">Effective 19 November 2026 · Applies to the app <code>com.glasshome.launcher</code></p>
   </header>
   <section class="glance" aria-labelledby="glance">
     <h2 id="glance">In short</h2>
     <ul>
-      <li>GlassHome has <strong>no account, no server of its own and no analytics</strong>. Your home screen layout, settings and usage stay on your phone.</li>
+      <li>GlassHome has <strong>no account and no server of its own</strong>. Your home screen layout, settings and the apps you open stay on your phone. The only usage information that leaves it is basic, non-personal usage statistics (Google Analytics for Firebase), which follow your choice in Google's consent form in the EEA, the UK and Switzerland.</li>
       <li>Free users see ads from <strong>Google AdMob</strong>, which may use your device's advertising ID. Premium subscribers see no ads, and no ad requests are made for them.</li>
       <li>Subscriptions are handled entirely by <strong>Google Play</strong>. We never see your payment details.</li>
       <li>A few optional features (weather, news and online wallpapers) contact outside services only when you use them.</li>
@@ -157,7 +157,7 @@
     <table>
       <thead><tr><th>Permission</th><th>What it is used for</th></tr></thead>
       <tbody>
-        <tr><td>Internet</td><td>Ads for free users, Google Play subscriptions, and the optional weather, news and online wallpaper features described below.</td></tr>
+        <tr><td>Internet</td><td>Ads for free users, usage statistics, Google Play subscriptions, and the optional weather, news and online wallpaper features described below.</td></tr>
         <tr><td>Calendar (read)</td><td>Requested only when you add the Calendar widget. It reads the title, time and colour of upcoming events to display them. Events are not stored and never leave your device.</td></tr>
         <tr><td>Notification access</td><td>Optional, for the Music widget and for notification badges on app icons. Android requires this access for an app to show and control what is currently playing and to count notifications. GlassHome uses only the number of notifications per app for badges, and does not read, store or send the content of your notifications.</td></tr>
         <tr><td>Device admin (screen lock)</td><td>Optional. It lets the double-tap gesture or control centre turn the screen off. The only policy requested is “lock the screen”. GlassHome cannot wipe your device, see or change your password, or monitor you.</td></tr>
@@ -186,6 +186,16 @@
   <h3>Google Play (checking for updates)</h3>
   <p>If you tap “Check for updates” in Settings › About GlassHome, the app asks Google Play whether a newer version is available and, if you choose, starts the update through Google Play. Nothing is sent to us, and GlassHome never checks for updates in the background. The “Rate GlassHome” button and the one-time rating request simply open GlassHome's page on Google Play, where Google's own policy applies.</p>
 
+  <h3>Google Analytics for Firebase (usage statistics)</h3>
+  <p>GlassHome uses Google Analytics for Firebase to count how many people use the app and which features they use, so we can improve it. It starts only after any consent that applies to you (see below). It records:</p>
+  <ul>
+    <li><strong>A few events GlassHome sends itself:</strong> that the app library, search or the Today page was opened; that a wallpaper was applied, with only a broad type (photo, preset, video or system wallpaper); and which of GlassHome's own icon styles you chose. It never includes which apps you open, what you search for, wallpaper files, notification content, contacts or your location.</li>
+    <li><strong>Information the Firebase SDK collects automatically:</strong> such as app launches and sessions, first open, screen views, app version, Android version, device model, language, and an approximate location (country or region) that Google works out from your IP address.</li>
+    <li><strong>A random app instance ID</strong> that lets Google tell installs apart without knowing who you are and, if you allow it, your device's advertising ID.</li>
+  </ul>
+  <p>Google processes this data for us. It is not linked to your name or an account, because GlassHome has none. Google keeps Analytics event data for a limited period and then deletes it automatically. Clearing GlassHome's storage or uninstalling the app resets the app instance ID. See <a href="https://support.google.com/analytics/answer/11582702" target="_blank" rel="noopener">Google's description of the data Analytics collects</a>.</p>
+  <p><strong>Consent in the EEA, the UK and Switzerland.</strong> If you are in one of these regions, usage statistics follow the choice you make in Google's consent form (the same form that is used for ads) and are off until you agree. Everywhere, including outside those regions, you can turn usage statistics off (and back on) in Settings › About GlassHome › <em>Privacy</em> › <em>Usage statistics</em>. Turning them off stops collection straight away and resets your app instance ID. In the EEA, the UK and Switzerland the switch can only restrict what the consent form allows: it never turns statistics on if you have not agreed.</p>
+
   <h3>Open-Meteo (weather widget, optional)</h3>
   <p>When you use the weather widget, GlassHome sends the city name you search for and the coordinates of the city you picked to <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo</a> to fetch the forecast. It does not use your phone's GPS, and the request carries no identifier for you or your device.</p>
 
@@ -199,7 +209,7 @@
   <h2 id="not-collected">4. What we do not do</h2>
   <ul>
     <li>We do not operate servers that receive your data, and we have no user accounts.</li>
-    <li>We do not use analytics, tracking or crash-reporting services.</li>
+    <li>We do not use crash-reporting services. The only analytics we use is Google Analytics for Firebase, described in section 3, and we do not use it to track you across other apps or sites.</li>
     <li>We do not sell, rent or trade personal information.</li>
     <li>We do not read the content of your notifications, messages or files.</li>
   </ul>
@@ -214,6 +224,7 @@
   <ul>
     <li><strong>Delete everything GlassHome stores:</strong> uninstall the app, or clear its storage in Android Settings › Apps › GlassHome › Storage.</li>
     <li><strong>Android backup:</strong> manage or delete it from your Google Account settings.</li>
+    <li><strong>Usage statistics:</strong> Google deletes Analytics data automatically after a limited period. Clearing GlassHome's storage or uninstalling resets your app instance ID. You can turn usage statistics off at any time in Settings › About GlassHome › <em>Privacy</em> › <em>Usage statistics</em> (this also resets your app instance ID), and in the EEA, the UK and Switzerland you can change your consent choice in Settings › About GlassHome › <em>Ad privacy choices</em>. Your choice is kept when you use Reset launcher.</li>
     <li><strong>Advertising data:</strong> reset or delete your advertising ID as described in section 3, or use Google's <a href="https://myadcenter.google.com/" target="_blank" rel="noopener">My Ad Center</a>.</li>
     <li><strong>Revoke permissions:</strong> at any time in Android Settings › Apps › GlassHome › Permissions, and from the special-access screens for notification access and device admin.</li>
   </ul>
@@ -243,7 +254,7 @@
 
   </section>
   <footer class="foot glass">
-    <span>GlassHome Launcher · Privacy Policy · Effective 15 November 2026</span>
+    <span>GlassHome Launcher · Privacy Policy · Effective 19 November 2026</span>
     <nav aria-label="Footer"><a href="https://rm10490-wq.github.io/">Website</a><a href="https://play.google.com/store/apps/details?id=com.glasshome.launcher">Google Play</a></nav>
   </footer>
 </main>
